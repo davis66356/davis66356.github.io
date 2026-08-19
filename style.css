@@ -16,7 +16,7 @@ body {
   padding: 32px 40px;
 }
 body {
-    background: #7303fc;
+    background: #fa61e8;
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: Arial, sans-serif;
@@ -29,7 +29,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: #1f4023;
+    background: #61a8fa;
     margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -62,7 +62,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: #fc03ec;
+    background: #fa61e8;
     display: flex;
     margin-top: 20px;
 }
@@ -90,4 +90,57 @@ main {
 
 h2, h3 {
     margin: 0px;
+}
+
+/* Portfolio styles */
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#portfolio li {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#portfolio a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #444;
+  padding: 16px 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+#portfolio a:hover {
+  background: #000;
+  color: #fff;
+  transform: translateX(4px);
+}
+
+#portfolio a::after {
+  content: "->";
+  font-size: 0.85rem;
+  opacity: 0.4;
+  transition: opacity 0.25s ease;
+  white-space: nowrap;
+}
+
+#portfolio a:hover::after {
+  opacity: 1;
 }
