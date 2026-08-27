@@ -8,7 +8,7 @@ body {
 }
 
 canvas {
-  background-color: lightblue;
+  background: linear-gradient(160deg, #ffd6e7 0%, #ffe5c8 52%, #ffc4d8 100%);
   margin: 20px;
   border-radius: 15px;
   border: 5px solid rgba(118, 0, 233, 0.375);
