@@ -48,13 +48,13 @@ $(function () {
     createBadPlatform(0, 735, 2000, 20, "lavender");
 
     // TODO 3 - Create Collectables
-    createCollectable("steve", 500, 250);
-    createCollectable("diamond", 1250, 200);
+    createCollectable("max", 500, 250);
+    createCollectable("database", 1250, 200);
 
     // TODO 4 - Create Cannons
-    createCannon("top", 300, 1000);
-    createCannon("left", 350, 1000);
-    createCannon("right",200,1250);
+    createCannon("top", 250,1800,40,40,100,1300,5);
+    createCannon("left", 320, 1000, 40, 40);
+    createCannon("right", 200, 1250, 40, 40);
 
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
