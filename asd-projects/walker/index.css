@@ -1,6 +1,7 @@
 
 body {
   background-color: darkgreen;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3zxSty3Zc91NTkQQqRvoMpUaMJDo3lP2Juy74fqKZXqBXW98_FKWKjmY:https://media.licdn.com/dms/image/v2/C4E03AQFd5ft8P1zYCg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1602472021503%3Fe%3D2147483647%26v%3Dbeta%26t%3DrsMOFN9SG9bwRCC-SDI0HFN3bayt5tSHv1MZt5SO1sM&s=10");
 }
 
 #board {
@@ -11,8 +12,8 @@ body {
   position: relative;
 }
 
-#gameItem {
-  background-color: teal;
+#walker {
+  background-color: rgb(255, 0, 179);
   width: 50px;
   height: 50px;
   position: absolute;
