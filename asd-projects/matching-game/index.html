@@ -1,0 +1,68 @@
+
+<html>
+
+<head>
+	<title>Thanksgiving Match Game</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="logic.js"></script>
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		
+		/* Add your css here */
+
+
+
+	</style>
+</head>
+
+<body>
+<!-- Add your html here -->
+<div id="game-wrapper">
+  <h1>Thanksgiving Match Game</h1>
+</div>
+
+<div id="game-wrapper">
+  
+  <div id="match-grid">
+  </div>
+
+  <a onclick="start()">RESTART</a>
+</div>
+
+
+
+	<script>
+		var pumpkin = "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvTB6v7glLnnV9Szmn5xsLAziW_nsStbThR3vv_3kotupsEE6cgL1FmW8J4fVos-obX4x-wGqYa7oQBIRHtFPcOUNFrA3OdqBMfelS8EVceK5q8g=w1920-h946?auditContext=forDisplay";
+    
+    var turkey2 = "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsJBoJsr7ws3qHdib85SswxU8iExXdu8nWCZs3RjYFNtm66s9HRGNGGXQNNRi5DMLJmOq7NRDX8js8pjNeKBFmaqtiSRdEC3xmbDnQRDJBYFLCrA=w1920-h946?auditContext=forDisplay";
+    
+    var corn = "https://lh3.googleusercontent.com/drive-storage/AJQWtBOi9Al7lExjlo_3g2Y7IOJC2hID7O0P7fqeTxJeMhXVTTjtU9A_ZoIfdjoetgDvYouCOWrywsgedyMAUD6ZUucFyiUT9tRhkRCUoqd0SL_YjahCDQ=w1920-h946?auditContext=forDisplay";
+
+    var leaf = "https://lh3.googleusercontent.com/drive-storage/AJQWtBNe0K_L7beZbItBMgsZ9HXVSoicmiXv4EzVJROwhvSgemauwqUVyXWeU2YzqnVwjQv4lQsAefQvCKKP30F7of0-kG5Qydu_8pX4431iYVTVjHoa1A=w957-h906?auditContext=forDisplay";
+
+    var slice = "https://lh3.googleusercontent.com/drive-storage/AJQWtBOc_NpF-wPYP66X4QdFt9EzSHrXC9XTO6G8PAcMtUZOos9m-HlCJmsJR6NCG8E8gYla8UJKxI8W5LYeg3UFHgqwK7EDw9xOIFZqgbaH9JFAUYl52Q=w1920-h946?auditContext=forDisplay";
+
+    var acorns = "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcKptutG3Z2_Mx5KLR7zXWGh7EXxLBQikG9cYZhsPCz1N0k9FSPF2WqIhZbarENu1xJeO2Jrctf_oQ0uHKEda9bN4IbTQq3_z341HTU6TMoCZ3tQ=w1920-h946?auditContext=forDisplay";
+
+    var pie = "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5MElZSOZk2NDn4Y57kIZBS7zr1vS7XI_YYHeA056twEQH-AOabag9rUP_3nLrciV_WHk1PYh6sRHKH0cnOlIhHqq4xgZJcOOjo5mrCJGvtIsSlg=w957-h906?auditContext=forDisplay";
+
+    var turkey = "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgOZhGzC83p1X9pLbzhfk0hVF47BPIABCZQ5PuH_ROAAOF7TngA4GU8LuS5pkk42xTxZAmjKPWc54mkC_icKLUpNEK0FtcdAs9O1QxJRxuGSSFbg=w1920-h946?auditContext=forDisplay";
+
+    var cornucopia = "https://encrypted-tbn0.gstatic.com/images q=tbn:ANd9GcTOAQz2vh8MeBh02bzzTz7PSe0N1lf0GlW77af3bpPuQ9iV0Ltb3hURi-Uz:https://gallery.yopriceville.com/downloadfullsize/send/7024&s=10";
+
+
+
+    
+    /* Add the images in following array */
+		
+    var images = [pumpkin, turkey2, corn, leaf, slice, acorns, pie, turkey, cornucopia];
+
+		start();
+
+	</script>
+</body>
+
+</html>
